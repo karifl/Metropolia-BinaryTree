@@ -11,7 +11,7 @@ package btree;
 
 /**
  *
- * @author kamaj
+ * @author karilam
  */
 public class BinaryTree {
 
