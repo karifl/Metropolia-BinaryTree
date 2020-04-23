@@ -37,7 +37,7 @@ public class BinaryTree {
        }
        
        
-       else if(root.getData().compareTo(aData) < 0) {
+       else if(root.getData().compareTo(aData) > 0) {
     	   if(root.left()!= null) { 
     		   root.left().insert(aData); //jatketaan vasempaan   
     	   } else {
@@ -47,7 +47,7 @@ public class BinaryTree {
        
        
        
-    	else if(root.getData().compareTo(aData) > 0) {
+    	else if(root.getData().compareTo(aData) < 0) {
     		if(root.right()!= null) {
     			root.right().insert(aData); //jatketaan oikeaan
     		} else {
@@ -73,7 +73,7 @@ public class BinaryTree {
         }
  
                 
-             else if(root.getData().compareTo(aData) < 0){
+             else if(root.getData().compareTo(aData) > 0){
                   if(root.left()!= null) {
                         System.out.println("Solmu: " + root.getData());  
                         System.out.println("Vasempaan..");
